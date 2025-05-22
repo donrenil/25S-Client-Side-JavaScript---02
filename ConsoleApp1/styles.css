@@ -1,0 +1,16 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fffae6;
+  color: #333;
+  text-align: center;
+  padding: 2em;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+input, button {
+  margin: 5px;
+  padding: 10px;
+}

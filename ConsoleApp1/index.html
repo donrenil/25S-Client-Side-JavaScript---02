@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Silly Character Customizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Silly Character Customizer 🎭</h1>
+
+  <div id="character-display"></div>
+
+  <div class="controls">
+    <label>Name: <input type="text" id="nameInput" placeholder="Enter a new name"></label>
+    <label>Age: <input type="number" id="ageInput" placeholder="Enter a new age"></label>
+    <button onclick="updateName()">Update Name</button>
+    <button onclick="updateAge()">Update Age</button>
+    <button onclick="increaseAge()">+1 Age</button>
+    <button onclick="decreaseAge()">-1 Age</button>
+    <button onclick="generateRandomCharacter()">🎲 Generate Random Character</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
