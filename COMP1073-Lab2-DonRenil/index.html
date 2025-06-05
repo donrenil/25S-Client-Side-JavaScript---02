@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Random Story Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Random Story Generator</h1>
+
+    <div>
+      <label for="customname">Enter custom name:</label><br>
+      <input id="customname" type="text" placeholder="Bob" />
+    </div>
+
+    <div class="units">
+      <label><input type="radio" name="unit" id="us" checked /> Imperial</label>
+      <label><input type="radio" name="unit" id="metric" /> Metric</label>
+    </div>
+
+    <button class="randomize">Generate random story</button>
+
+    <p class="story" style="visibility: hidden;"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
